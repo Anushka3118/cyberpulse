@@ -47,7 +47,7 @@ CyberPulse is an interactive web application designed to **visualize cyber attac
 
 **Backend:**
 
-* Node.js / Express (if used)
+* Node.js / Express.js 
 
 **Other:**
 
@@ -109,11 +109,6 @@ This project is built to:
 
 ---
 
-## 👩‍💻 Author
-
-**Anushka Sinha**
-
----
 
 ## ⭐ Support
 
