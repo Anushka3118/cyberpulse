@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# 🚀 CyberPulse – Cyber Attack Visualization & Awareness Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🌐 Overview
 
-## Available Scripts
+CyberPulse is an interactive web application designed to **visualize cyber attacks** and **spread cybersecurity awareness**. It combines real-time style animations, AI-powered analysis, and interactive simulations to help users understand how cyber threats work and how to stay safe.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🔥 Live Attack Visualization
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Animated cyber attack lines across the screen
+* Smooth transitions from origin to destination
+* Glowing golden effects for a premium UI
 
-### `npm test`
+### 🧠 AI Scanner
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Analyze emails, URLs, or inputs
+* Provides:
 
-### `npm run build`
+  * Risk Score
+  * Attack Type
+  * Reasons
+  * Prevention Steps
+* Structured and readable output
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🎭 Story Mode (Simulation)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Interactive cybersecurity scenarios
+* Real-world attack situations
+* Learn by making decisions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🗺️ Map-Based Awareness
 
-### `npm run eject`
+* Visual representation of cyber activities
+* Engaging and informative UI
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Frontend:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* React.js
+* CSS (Custom animations & UI)
 
-## Learn More
+**Backend:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Node.js / Express (if used)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Other:**
 
-### Code Splitting
+* Canvas API (for animations)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+cyberpulse/
+ ├── backend/        # Server-side code
+ ├── public/         # Static assets
+ ├── src/            # React frontend
+ ├── package.json
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ⚙️ Installation & Setup
 
-### Advanced Configuration
+### 1️⃣ Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+git clone https://github.com/your-username/cyberpulse.git
+cd cyberpulse
+```
 
-### Deployment
+### 2️⃣ Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+npm install
+```
 
-### `npm run build` fails to minify
+### 3️⃣ Run the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm start
+```
+
+---
+
+## 🚀 Future Enhancements
+
+* 🌍 Real-time cyber threat data integration
+* 🤖 Advanced AI threat detection
+* 📊 Analytics dashboard
+* 🔐 User authentication
+
+---
+
+## 🎯 Purpose
+
+This project is built to:
+
+* Raise awareness about cyber threats
+* Educate users through interaction
+* Visualize attacks in an engaging way
+
+---
+
+## 👩‍💻 Author
+
+**Anushka Sinha**
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
