@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+
+import MapComponent from './components/MapComponent';
+import Charts from './components/Charts';
+import Alerts from './components/Alerts';
+import AttackFeed from './components/AttackFeed';
+import Awareness from './components/Awareness';
+import StoryMode from './components/StoryMode';
+import AISection from "./components/AISection";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>🚨 Cyber Attack Dashboard</h1>
+      <h2>🌍 CyberPulse Map (Demo)</h2>
+
+      <MapComponent />
+      <Charts />
+      <Alerts />
+      <AttackFeed />
+      <StoryMode />
+      <Awareness />
+      <AISection />
     </div>
   );
 }
