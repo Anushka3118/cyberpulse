@@ -42,16 +42,29 @@ CyberPulse is an interactive web application designed to **visualize cyber attac
 
 **Frontend:**
 
-* React.js
-* CSS (Custom animations & UI)
+* **React.js** – Used to build the user interface
+* **CSS (Custom Styling & Animations)** – For designing the UI and cyber-themed effects
+* **HTML5 Canvas API** – For real-time cyber attack animations
+* **Recharts** – For data visualization and charts
+* **React Leaflet & Leaflet** – For map-based visualization of cyber activity
+
+**AI Integration:**
+* **Grok AI(xAI)** - Used for AI- based threat analysisin the scanner
+
+**Networking:**
+* **Axios** - For handling API request between frontend and backend 
 
 **Backend:**
 
-* Node.js / Express.js 
+* **Node.js** - Runtime Environment
+* **Express.js** - For handling APIs and server logic
+* **CORS** - Enables cross- origin communicaion
+* **dotenv** - For managing environment variables
 
-**Other:**
+**Development Tools:**
 
-* Canvas API (for animations)
+* **npm** - Package manager
+* **React Testing Library** - For testing components
 
 ---
 
