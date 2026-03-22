@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "CyberPulse AI Scanner",
+    "version": "1.0",
+    "description": "Scan websites for cyber threats using AI",
+  
+    "permissions": ["tabs"],
+  
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Scan Website"
+    }
+  }

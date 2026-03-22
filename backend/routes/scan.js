@@ -10,6 +10,10 @@ const client = new OpenAI({
 router.post("/", async (req, res) => {
   const { text } = req.body;
 
+  if (!text) {
+    return res.status(400).json({ result: "No input provided" });
+  }
+
   try {
     const completion = await client.chat.completions.create({
       model: "llama-3.3-70b-versatile",
@@ -34,9 +38,9 @@ router.post("/", async (req, res) => {
     });
 
   } catch (err) {
-    console.log("❌ GROQ ERROR:", err.message);
+    console.log("❌ FULL ERROR:", err);
 
-    res.json({
+    res.status(500).json({
       result: "⚠️ AI failed",
     });
   }
