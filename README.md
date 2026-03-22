@@ -8,6 +8,18 @@ CyberPulse is an interactive web application designed to **visualize cyber attac
 
 ## ✨ Features
 
+### 🔥 AI Auto Scanner(chrome extension)
+* One-click scan of current tab
+* No need to manually paste URLs
+* Real-time AI threat analysis
+* Detects phishing / suspicious websites instantly
+**⚙️ How it works:**
+* User opens any website
+* Clicks the extension
+* Extension fetches current URL
+* Sends it to backend AI (/scan)
+* Displays risk analysis instantly
+
 ### 🔥 Live Attack Visualization
 
 * Animated cyber attack lines across the screen
