@@ -5,7 +5,6 @@ btn.addEventListener("click", async () => {
   resultDiv.innerText = "🔍 Scanning current website...";
 
   try {
-    // ✅ get current tab
     const [tab] = await chrome.tabs.query({
       active: true,
       currentWindow: true,
@@ -13,24 +12,23 @@ btn.addEventListener("click", async () => {
 
     const currentUrl = tab.url;
 
-    // ✅ correct backend URL + correct body
-    const res = await fetch("http://localhost:5001/scan", {
+    // ✅ UPDATED BACKEND URL
+    const res = await fetch("https://cyberpulse-duif.onrender.com/scan", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ text: currentUrl }), // 🔥 IMPORTANT FIX
+      body: JSON.stringify({ text: currentUrl }),
     });
 
     const data = await res.json();
 
-    // ✅ better formatted output
     resultDiv.innerText = data.result || "⚠️ No result from AI";
 
   } catch (err) {
     console.error(err);
 
     resultDiv.innerText =
-      "❌ Error scanning.\n\n👉 Check:\n- Backend running?\n- Port correct?\n- CORS fixed?";
+      "❌ Error scanning.\n\n👉 Check:\n- Backend deployed?\n- URL correct?\n- CORS enabled?";
   }
 });

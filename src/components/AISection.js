@@ -14,7 +14,7 @@ function AISection() {
       setError("");
       setScanResult("");
 
-      const res = await fetch("http://127.0.0.1:5001/scan", {
+      const res = await fetch("https://cyberpulse-duif.onrender.com/scan", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -43,7 +43,7 @@ function AISection() {
       setError("");
       setSimResult(null);
 
-      const res = await fetch("http://127.0.0.1:5001/simulate", {
+      const res = await fetch("https://cyberpulse-duif.onrender.com/simulate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
